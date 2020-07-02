@@ -1,0 +1,9 @@
+C:\Users\Milde\source\repos\SteuernummerKonverter\Steuernummer.Models\bin\Debug\netstandard2.0\SteuernummerKonverter.Models.deps.json
+C:\Users\Milde\source\repos\SteuernummerKonverter\Steuernummer.Models\bin\Debug\netstandard2.0\SteuernummerKonverter.Models.dll
+C:\Users\Milde\source\repos\SteuernummerKonverter\Steuernummer.Models\bin\Debug\netstandard2.0\SteuernummerKonverter.Models.pdb
+C:\Users\Milde\source\repos\SteuernummerKonverter\Steuernummer.Models\obj\Debug\netstandard2.0\SteuernummerKonverter.Models.csprojAssemblyReference.cache
+C:\Users\Milde\source\repos\SteuernummerKonverter\Steuernummer.Models\obj\Debug\netstandard2.0\SteuernummerKonverter.Models.csproj.CoreCompileInputs.cache
+C:\Users\Milde\source\repos\SteuernummerKonverter\Steuernummer.Models\obj\Debug\netstandard2.0\SteuernummerKonverter.Models.AssemblyInfoInputs.cache
+C:\Users\Milde\source\repos\SteuernummerKonverter\Steuernummer.Models\obj\Debug\netstandard2.0\SteuernummerKonverter.Models.AssemblyInfo.cs
+C:\Users\Milde\source\repos\SteuernummerKonverter\Steuernummer.Models\obj\Debug\netstandard2.0\SteuernummerKonverter.Models.dll
+C:\Users\Milde\source\repos\SteuernummerKonverter\Steuernummer.Models\obj\Debug\netstandard2.0\SteuernummerKonverter.Models.pdb

@@ -1,0 +1,43 @@
+﻿<Window x:Class="SteuernummerKonverter.DesktopClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SteuernummerKonverter.DesktopClient"
+        Title="Steuernummer Konverter" Height="400" Width="600">
+    <Window.Resources>
+        <Thickness x:Key="rowMargin" Top="5" Bottom="0" Left="0" Right="0" />
+
+    </Window.Resources>
+    <Grid Margin="5" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal"
+                    Margin="{StaticResource rowMargin}">
+            <Label Width="100" Content="Steuernummer:"/>
+            <TextBox Text="{Binding Steuernummer}" Width="450"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal"
+                    Margin="{StaticResource rowMargin}">
+            <Label Width="100" Content="Bundesland:"/>
+            <ComboBox SelectedItem="{Binding Bundesland}" ItemsSource="{Binding Bundesländer}" Width="450"/>
+        </StackPanel>
+
+        <Button Grid.Row="2" Content="Konvertieren" Width="350"
+                Command="{Binding OnKonvertierenCommand}"
+                Margin="{StaticResource rowMargin}"/>
+
+        <DataGrid Grid.Row="3" IsReadOnly="True" ItemsSource="{Binding Log}" 
+                  Margin="{StaticResource rowMargin}"/>
+    </Grid>
+</Window>
