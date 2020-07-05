@@ -18,26 +18,29 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Row="0" Orientation="Horizontal"
                     Margin="{StaticResource rowMargin}">
             <Label Width="100" Content="Steuernummer:"/>
-            <TextBox Text="{Binding Steuernummer}" Width="450"/>
+            <TextBox Text="{Binding Steuernummer, UpdateSourceTrigger=PropertyChanged}" Width="450"/>
         </StackPanel>
 
         <StackPanel Grid.Row="1" Orientation="Horizontal"
                     Margin="{StaticResource rowMargin}">
             <Label Width="100" Content="Bundesland:"/>
-            <ComboBox SelectedItem="{Binding Bundesland}" ItemsSource="{Binding Bundesländer}" Width="450"/>
+            <ComboBox SelectedItem="{Binding Bundesland, UpdateSourceTrigger=PropertyChanged}" ItemsSource="{Binding Bundesländer}" Width="450"/>
         </StackPanel>
 
         <Button Grid.Row="2" Content="Konvertieren" Width="350"
                 Command="{Binding OnKonvertierenCommand}"
                 Margin="{StaticResource rowMargin}"/>
 
-        <DataGrid Grid.Row="3" IsReadOnly="True" ItemsSource="{Binding Log}" 
+        <Label Grid.Row="3" HorizontalAlignment="Center" Content="{Binding Statustext, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <DataGrid Grid.Row="4" IsReadOnly="True" ItemsSource="{Binding Log}" 
                   Margin="{StaticResource rowMargin}"/>
     </Grid>
 </Window>
