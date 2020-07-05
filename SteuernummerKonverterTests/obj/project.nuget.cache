@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZdxlRv6nWgANbfabFqc3FVEnosRmgzLqAIJOx+plDrLX3A+aOySzckZluC+1pE3lVW6VY1IEZJ4/ffF4H/wh0w==",
+  "dgSpecHash": "+uMYoj/Lt1DvQlvDG6hCCOrMkhgkkHxmXoiEIytp0ymTMbRGRPuuHMvglnWfssGrKDBPdM995FYU2tYU9jKlgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Milde\\source\\repos\\SteuernummerKonverter\\SteuernummerKonverterTests\\SteuernummerKonverterTests.csproj",
+  "projectFilePath": "C:\\Users\\Milde\\Source\\Repos\\SteuernummerKonverter2\\SteuernummerKonverterTests\\SteuernummerKonverterTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Milde\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Milde\\.nuget\\packages\\microsoft.codecoverage\\16.2.0\\microsoft.codecoverage.16.2.0.nupkg.sha512",

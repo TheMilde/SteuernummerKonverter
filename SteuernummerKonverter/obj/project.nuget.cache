@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YZqG93tQvqsI2GQDjEFMJo2Z6v1SjmSFVGrFPFwyWjSOF79vHDh5PvVM1oYUjPyyT2zGD6mU05lcfcifoiDjAw==",
+  "dgSpecHash": "qTJFy50B2jJaN//Pbs2/kJ7bemr6SAqy22NaudShpgkr/AaYBmIMtbAq+TrJrYG+yOgGn9xfNlTz0bhXs//h3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Milde\\source\\repos\\SteuernummerKonverter\\SteuernummerKonverter\\SteuernummerKonverter.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Milde\\Source\\Repos\\SteuernummerKonverter2\\SteuernummerKonverter\\SteuernummerKonverter.WebAPI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Milde\\source\\repos\\SteuernummerKonverter\\SteuernummerKonverter\\SteuernummerKonverter.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Milde\\Source\\Repos\\SteuernummerKonverter2\\SteuernummerKonverter\\SteuernummerKonverter.WebAPI.csproj",
       "projectName": "SteuernummerKonverter.WebAPI",
-      "projectPath": "C:\\Users\\Milde\\source\\repos\\SteuernummerKonverter\\SteuernummerKonverter\\SteuernummerKonverter.WebAPI.csproj",
+      "projectPath": "C:\\Users\\Milde\\Source\\Repos\\SteuernummerKonverter2\\SteuernummerKonverter\\SteuernummerKonverter.WebAPI.csproj",
       "packagesPath": "C:\\Users\\Milde\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Milde\\source\\repos\\SteuernummerKonverter\\SteuernummerKonverter\\obj\\",
+      "outputPath": "C:\\Users\\Milde\\Source\\Repos\\SteuernummerKonverter2\\SteuernummerKonverter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Milde\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Milde\\source\\repos\\SteuernummerKonverter\\Steuernummer.Models\\SteuernummerKonverter.Models.csproj": {
-              "projectPath": "C:\\Users\\Milde\\source\\repos\\SteuernummerKonverter\\Steuernummer.Models\\SteuernummerKonverter.Models.csproj"
+            "C:\\Users\\Milde\\Source\\Repos\\SteuernummerKonverter2\\Steuernummer.Models\\SteuernummerKonverter.Models.csproj": {
+              "projectPath": "C:\\Users\\Milde\\Source\\Repos\\SteuernummerKonverter2\\Steuernummer.Models\\SteuernummerKonverter.Models.csproj"
             }
           }
         }

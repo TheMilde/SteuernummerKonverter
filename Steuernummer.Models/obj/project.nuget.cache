@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gYQINGp43uBplaIzMn+ac2kjwr70jKTTQUygGt+QSedXQHvqJiI4Ffsh1c/mnn2FoNFZnfiTRdgUEmk2Djem4A==",
+  "dgSpecHash": "/otwE2K0beg3kLS1ywMIQps0M98vNmVNJxgtYTxB8z11mzlBM3Ie6u8OPn9N6lrbEnUDWg9TWxzDZ8LSozsV1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Milde\\source\\repos\\SteuernummerKonverter\\Steuernummer.Models\\SteuernummerKonverter.Models.csproj",
+  "projectFilePath": "C:\\Users\\Milde\\Source\\Repos\\SteuernummerKonverter2\\Steuernummer.Models\\SteuernummerKonverter.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Milde\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Milde\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
